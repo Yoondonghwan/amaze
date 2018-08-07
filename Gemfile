@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 gem 'figaro'
 
 group :production do
-  gem 'mysql2'
+  gem 'mysql2','<0.5'
 end
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
